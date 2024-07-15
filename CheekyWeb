@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Meme Coin</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <style>
+        .container {
+            padding: 20px;
+            margin: auto;
+            max-width: 1200px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        .grid img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="container-fluid">
+        <ul>
+            <li><strong>Meme Coin</strong></li>
+        </ul>
+        <ul>
+            <li><a href="#description">Description</a></li>
+            <li><a href="#whitepaper">White Paper</a></li>
+            <li><a href="#social" role="button">Social Media</a></li>
+        </ul>
+    </nav>
+    <main class="container">
+        <div class="grid">
+            <section>
+                <hgroup>
+                    <h2>Welcome to Meme Coin</h2>
+                    <h3>The fun and rewarding cryptocurrency</h3>
+                </hgroup>
+                <p>Meme Coin is a new cryptocurrency that combines the fun of memes with the rewards of blockchain technology. Join us on this exciting journey!</p>
+                <figure>
+                    <img src="https://files.oaiusercontent.com/file-8pDCli7PKqSZ79Qi8ZkpvrK0?se=2024-07-15T13%3A31%3A58Z&sp=r&sv=2023-11-03&sr=b&rscc=max-age%3D299%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3DDALL%25C2%25B7E%25202024-07-14%252022.27.13%2520-%2520Create%2520an%2520image%2520for%2520the%2520CheekyChimp%2520X%2520page%2520featuring%2520the%2520CheekyChimp%2520mascot%2520from%2520the%2520reference%2520image.%2520The%2520mascot%2520should%2520be%2520centered%252C%2520wearing%2520its%2520pirat.webp&sig=WzFfycTxHonWPNJ0HNX/3QFN3Fp2EopNvPfRy7Nt5R8%3D" alt="Monkey with Bitcoin" />
+                    <figcaption><a href="#" target="_blank">Meme Coin Mascot 1</a></figcaption>
+                </figure>
+                <h3>Description</h3>
+                <p id="description">Cheeky Chimp is a fun and mischievous monkey who brings fun to the crypto world.</p>
+                <figure>
+                    <img src="https://files.oaiusercontent.com/file-vqIftQQEniY6OSM6bedDaf3o?se=2024-07-15T13%3A31%3A58Z&sp=r&sv=2023-11-03&sr=b&rscc=max-age%3D299%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3DCheeky%2520chimp.webp&sig=pdP18kYfwT6dnl4Gg/Q3Q7LqLwaFyIkM2417eLGfAjY%3D" alt="Monkey with Banana" />
+                    <figcaption><a href="#" target="_blank">Meme Coin Mascot 2</a></figcaption>
+                </figure>
+                <h3>White Paper</h3>
+                <p id="whitepaper"><a href="#" target="_blank">Read our detailed white paper to understand the vision, technology, and future plans of Meme Coin.</a></p>
+                <h3>Social Media</h3>
+                <p id="social">Follow us on social media to stay updated with the latest news, memes, and community activities.</p>
+            </section>
+        </div>
+    </main>
+    <section aria-label="Subscribe example">
+        <div class="container">
+            <article>
+                <hgroup>
+                    <h2>Join our Newsletter</h2>
+                    <h3>Stay updated with Meme Coin news and updates</h3>
+                </hgroup>
+                <form class="grid">
+                    <input type="text" id="firstname" name="firstname" placeholder="First Name" aria-label="First Name" required />
+                    <input type="email" id="email" name="email" placeholder="Email Address" aria-label="Email Address" required />
+                    <button type="submit" onclick="event.preventDefault()">Subscribe</button>
+                </form>
+            </article>
+        </div>
+    </section>
+    <footer class="container">
+        <small><a href="#description">Description</a> • <a href="#whitepaper">White Paper</a> • <a href="#social">Social Media</a></small>
+    </footer>
+</body>
+</html>
